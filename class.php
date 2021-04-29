@@ -1,33 +1,33 @@
 <?php
-//TRAITS
-    trait message1{
-        public function msg1(){
-            echo "PHP OOP";
-        }
-    }
+// //TRAITS
+//     trait message1{
+//         public function msg1(){
+//             echo "PHP OOP";
+//         }
+//     }
 
-    trait message2{
-        public function msg2(){
-            echo "OOP is clean";
-        }
-    }
+//     trait message2{
+//         public function msg2(){
+//             echo "OOP is clean";
+//         }
+//     }
 
-    class Announcement1{
-        use message1;
+//     class Announcement1{
+//         use message1;
          
-    }
+//     }
 
-    class Announcement2{
-        use message1,message2;
-    }
+//     class Announcement2{
+//         use message1,message2;
+//     }
 
-    $obj1 = new Announcement1();
-    $obj1->msg1();
-    echo "<br>";
-    $obj2 = new Announcement2();
-    $obj2->msg1();
-    echo "<br>";
-    $obj2->msg2();
+//     $obj1 = new Announcement1();
+//     $obj1->msg1();
+//     echo "<br>";
+//     $obj2 = new Announcement2();
+//     $obj2->msg1();
+//     echo "<br>";
+//     $obj2->msg2();
 
     // //ABSTRACT 
     // abstract class Car {
