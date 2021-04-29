@@ -12,7 +12,7 @@
     <title>Number 2</title>
 </head>
 <body class="p-3 mb-2 bg-dark text-white">
-<div class = "container border border-primary w-75 mt-5">
+    <div class = "container border border-primary w-75 mt-5">
         <p>2. &nbsp;&nbsp;&nbsp;Write a class that accepts a user input and adds the said input as an option in the select (dropdown) element.<br></p>
         <form action="" method="POST">
             <div class="form-group row">
