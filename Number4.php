@@ -88,12 +88,9 @@
                                 }else {
                                     echo $this->number ." is valid phone number;";
                                 }
-                                
                             }
                         }
-
                         $validate = new Validate();
-
                         $validate->validateMe();
                     ?>
                 </div>

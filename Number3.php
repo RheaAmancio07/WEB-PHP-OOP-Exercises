@@ -43,10 +43,8 @@
                             }
                         }
                     }
-
                     $emailVal = new Email();
                     $emailVal->validateEmail();
-
                 ?>
                 </div>
             </div>

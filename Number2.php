@@ -27,6 +27,7 @@
                 </div>
                 <div >
                     <?php
+                    
                         session_start();
 
                         class userInput{
@@ -48,7 +49,7 @@
                                 echo '</select>';
                             }
                         }
-
+                    
                         if(isset($_POST['submit'])){
                             $userInput = $_POST['userInput'];
                             $input = new userInput($userInput);
