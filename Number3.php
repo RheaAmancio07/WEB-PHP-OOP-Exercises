@@ -34,15 +34,12 @@
 
                         public function validateEmail(){
                             if (filter_var($this->email, FILTER_VALIDATE_EMAIL)) {
-                                echo ("$this->email is a valid email");
+                                echo '<script>alert("'.$this->email .' is a valid email")</script>';
                             }
                             else if($this->email==""){
                                 echo "<script type='text/javascript'>alert('Please Enter an email');</script>";
                             } else {
-                                echo '<script> alert("Welcome '.$user['first_name']." ".$user["last_name"].'")</script>';
-                                echo '<script>alert('$this->email is invalid email"')</script>"';
-                                echo '<script> alert("Welcome '.$user['first_name']." ".$user["last_name"].'")</script>';
-                                echo ("$this->email is invalid email");
+                                echo '<script>alert("'.$this->email .' is invalid email")</script>';
                             }
                         }
                     }
