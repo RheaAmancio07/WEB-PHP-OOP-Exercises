@@ -1,3 +1,7 @@
+<!-- discusion notes!!!! -->
+
+
+
 <?php
 // //TRAITS
 //     trait message1{
